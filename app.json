@@ -1,0 +1,16 @@
+{
+  "name": "ToDoListApp",
+  "displayName": "ToDoListApp",
+  "expo": {
+    "name": "ToDoListApp",
+    "slug": "ToDoListApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.android.ToDoListApp",
+      "versionCode": 1
+    }
+  }
+}
