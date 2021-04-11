@@ -12,7 +12,7 @@ export default function App() {
       <PaperProvider>
         <NavigationContainer>
           <Stack.Navigator headerMode = {false} initialRouteName = "HomeScreen">
-          <Stack.Screen name = "HomeScreen"  component = {HomeScreen} />
+            <Stack.Screen name = "HomeScreen"  component = {HomeScreen} />
             <Stack.Screen name = "AddToDo"  component = {AddToDo} />
             <Stack.Screen name = "ShowGoals"  component = {ShowGoals} />
           </Stack.Navigator>
