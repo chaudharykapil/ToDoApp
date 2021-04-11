@@ -5,7 +5,6 @@ import { StyleSheet,View } from 'react-native';
 import {Provider as PaperProvider, Title} from "react-native-paper"
 import AddToDo from "./src/AddToDo"
 import ShowGoals from './src/ShowGoals';
-import HomePage from './src/HomePage';
 import HomeScreen from "./src/HomeScreen"
 export default function App() {
   const Stack = createStackNavigator()
