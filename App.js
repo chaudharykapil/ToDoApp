@@ -1,8 +1,8 @@
 import React from 'react';
 import {NavigationContainer} from "@react-navigation/native"
-import {createStackNavigator, HeaderTitle} from "@react-navigation/stack"
-import { StyleSheet,View } from 'react-native';
-import {Provider as PaperProvider, Title} from "react-native-paper"
+import {createStackNavigator} from "@react-navigation/stack"
+import { StyleSheet} from 'react-native';
+import {Provider as PaperProvider} from "react-native-paper"
 import AddToDo from "./src/AddToDo"
 import ShowGoals from './src/ShowGoals';
 import HomeScreen from "./src/HomeScreen"
